@@ -2,7 +2,7 @@
 
 Invoke-Rubeus is a PowerShell function that loads a compressed .NET assembly entirely in memory, decompresses it, and executes its managed Main() entry point without ever touching disk.
 
-This version uses a Rubeus Pull Request that enables the use of dMSA accounts (https://github.com/GhostPack/Rubeus/pull/194)
+This version uses a Rubeus Pull Request that enables the use of dMSA accounts (https://github.com/GhostPack/Rubeus/pull/194).
 
 This design is useful for:
 
