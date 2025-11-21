@@ -1,4 +1,4 @@
-## Invoke-Rubeus PR — Reflective In-Memory Loader for .NET Assemblies
+## Invoke-Rubeus PR — Reflective In-Memory Loader for Rubeus
 
 Invoke-Rubeus is a PowerShell function that loads a compressed .NET assembly entirely in memory, decompresses it, and executes its managed Main() entry point without ever touching disk.
 
@@ -27,7 +27,7 @@ Invoke-Rubeus -Command "asktgs /targetuser:attacker_dMSA$ /service:krbtgt/hackla
 
 ## ⚠️ Disclaimer
 
-I do not own the PR. It is owned and developed by JoeDibley - https://github.com/JoeDibley
+I do not own Rubeus nor the PR. Rubeus was developed by GhostPack (https://github.com/ghostpack) and the PR by JoeDibley - https://github.com/JoeDibley
 
 For educational and authorized testing only. Use only with explicit permission. The authors assume no liability for misuse.
 
